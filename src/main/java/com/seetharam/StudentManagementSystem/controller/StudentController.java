@@ -15,12 +15,12 @@ public class StudentController {
 
     @GetMapping
     public List<StudentEntity> getAllStudents() {
-        return studentService.getallStudents();
+        return studentService.getAllStudents();
     }
 
     @GetMapping("/{id}")
     public StudentEntity findStudentByID(@PathVariable Long studentID) {
-        return studentService.findbyStudentID(studentID);
+        return studentService.findByStudentID(studentID);
     }
 
     @PostMapping

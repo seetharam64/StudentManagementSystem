@@ -16,11 +16,11 @@ public class StudentService {
     private StudentStorageRepository storageRepository;
     private final RandomNumberGenerator randomNumberGenerator = new RandomNumberGenerator();
 
-    public List<StudentEntity> getallStudents() {
+    public List<StudentEntity> getAllStudents() {
         return storageRepository.findAll();
     }
 
-    public StudentEntity findbyStudentID(Long studentID) {
+    public StudentEntity findByStudentID(Long studentID) {
         return storageRepository.findById(studentID).orElse(null);
     }
 

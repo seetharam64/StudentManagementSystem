@@ -1,7 +1,7 @@
-package com.seetharam.StudentManagementSystem.controller;
+package com.example.studentmanagementsystem.controller;
 
-import com.seetharam.StudentManagementSystem.Entity.CourseEntity;
-import com.seetharam.StudentManagementSystem.service.CourseService;
+import com.example.studentmanagementsystem.Entity.CourseEntity;
+import com.example.studentmanagementsystem.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -44,9 +44,8 @@ public class CourseController {
                 || semester.equals("Summer") || semester.equals("summer")) {
             if (courseService.listCoursesBySemester(semester).isEmpty()) {
                 throw new ResponseStatusException(HttpStatus.NOT_FOUND, "No Courses Found for the provided semester");
-            } else {
-                return courseService.listCoursesBySemester(semester);
             }
+            return courseService.listCoursesBySemester(semester);
         }
         return null;
     }

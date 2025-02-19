@@ -1,7 +1,7 @@
-package com.seetharam.StudentManagementSystem.controller;
+package com.example.studentmanagementsystem.controller;
 
-import com.seetharam.StudentManagementSystem.Entity.StudentEntity;
-import com.seetharam.StudentManagementSystem.service.StudentService;
+import com.example.studentmanagementsystem.Entity.StudentEntity;
+import com.example.studentmanagementsystem.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,4 +1,4 @@
-package com.seetharam.StudentManagementSystem;
+package com.example.studentmanagementsystem;
 
 import java.util.Random;
 

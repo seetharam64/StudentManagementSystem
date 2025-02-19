@@ -11,7 +11,7 @@ public class StudentEntity {
 
     @Id
     @Column(nullable = false, length = 10, unique = true)
-    private long studentID;
+    private Long studentID;
     @Column(nullable = false)
     private String firstName;
     @Column(nullable = false)
@@ -23,13 +23,13 @@ public class StudentEntity {
     @Column(nullable = false)
     private String emailAddress;
     @Column(nullable = false)
-    private long phoneNumber;
+    private Long phoneNumber;
 
     public StudentEntity() {
     }
 
     public StudentEntity(String FirstName, String LastName, Date DateofBirth, String EmailAddress,
-                         long PhoneNumber) {
+                         Long PhoneNumber) {
         this.firstName = FirstName;
         this.lastName = LastName;
         this.dateOfBirth = DateofBirth;
@@ -37,11 +37,11 @@ public class StudentEntity {
         this.phoneNumber = PhoneNumber;
     }
 
-    public long getStudentID() {
+    public Long getStudentID() {
         return studentID;
     }
 
-    public void setStudentID(long studentID) {
+    public void setStudentID(Long studentID) {
         this.studentID = studentID;
     }
 
@@ -77,11 +77,11 @@ public class StudentEntity {
         this.emailAddress = emailAddress;
     }
 
-    public long getPhoneNumber() {
+    public Long getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(long phoneNumber) {
+    public void setPhoneNumber(Long phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 }

@@ -1,15 +1,12 @@
-package com.seetharam.StudentManagementSystem.service;
+package com.example.studentmanagementsystem.service;
 
-import com.seetharam.StudentManagementSystem.Entity.StudentEntity;
-import com.seetharam.StudentManagementSystem.RandomNumberGenerator;
-import com.seetharam.StudentManagementSystem.repository.StudentStorageRepository;
+import com.example.studentmanagementsystem.Entity.StudentEntity;
+import com.example.studentmanagementsystem.RandomNumberGenerator;
+import com.example.studentmanagementsystem.repository.StudentStorageRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Objects;
-import java.util.Optional;
-import java.util.Random;
 
 @Service
 public class StudentService {

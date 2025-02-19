@@ -1,4 +1,4 @@
-package com.seetharam.StudentManagementSystem.Entity;
+package com.example.studentmanagementsystem.Entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -18,7 +18,7 @@ public class CourseEntity {
     @Column
     private String courseName;
     @Column
-    private String InstructorName;
+    private String instructorName;
     @Column
     private Date programStartDate;
     @Column
@@ -28,9 +28,9 @@ public class CourseEntity {
     @Column
     private Time endTime;
     @Column
-    private String Days;
+    private String days;
     @Column
-    private String Semester;
+    private String semester;
     @Column
     private Year year;
 
@@ -51,11 +51,11 @@ public class CourseEntity {
     }
 
     public String getInstructorName() {
-        return InstructorName;
+        return instructorName;
     }
 
     public void setInstructorName(String instructorName) {
-        InstructorName = instructorName;
+        this.instructorName = instructorName;
     }
 
     public Date getProgramStartDate() {
@@ -83,11 +83,11 @@ public class CourseEntity {
     }
 
     public String getDays() {
-        return Days;
+        return days;
     }
 
     public void setDays(String days) {
-        Days = days;
+        this.days = days;
     }
 
     public Date getProgramEndDate() {
@@ -99,11 +99,11 @@ public class CourseEntity {
     }
 
     public String getSemester() {
-        return Semester;
+        return semester;
     }
 
     public void setSemester(String semester) {
-        Semester = semester;
+        this.semester = semester;
     }
 
     public Year getYear() {

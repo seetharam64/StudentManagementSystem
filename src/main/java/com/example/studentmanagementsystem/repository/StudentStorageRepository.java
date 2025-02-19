@@ -1,6 +1,6 @@
-package com.seetharam.StudentManagementSystem.repository;
+package com.example.studentmanagementsystem.repository;
 
-import com.seetharam.StudentManagementSystem.Entity.StudentEntity;
+import com.example.studentmanagementsystem.Entity.StudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

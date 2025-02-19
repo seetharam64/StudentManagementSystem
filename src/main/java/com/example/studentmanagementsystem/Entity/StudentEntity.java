@@ -1,6 +1,5 @@
-package com.seetharam.StudentManagementSystem.Entity;
+package com.example.studentmanagementsystem.Entity;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 
 import java.util.Date;

@@ -1,7 +1,7 @@
-package com.example.studentmanagementsystem.service;
+package com.example.studentmanagementsystem.course.service;
 
-import com.example.studentmanagementsystem.Entity.CourseEntity;
-import com.example.studentmanagementsystem.repository.CourseRepository;
+import com.example.studentmanagementsystem.course.entity.CourseEntity;
+import com.example.studentmanagementsystem.course.repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

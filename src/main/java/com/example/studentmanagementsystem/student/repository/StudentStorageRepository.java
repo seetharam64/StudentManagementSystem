@@ -1,6 +1,6 @@
-package com.example.studentmanagementsystem.repository;
+package com.example.studentmanagementsystem.student.repository;
 
-import com.example.studentmanagementsystem.Entity.StudentEntity;
+import com.example.studentmanagementsystem.student.entity.StudentEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

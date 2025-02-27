@@ -1,4 +1,4 @@
-package com.example.studentmanagementsystem.Entity;
+package com.example.studentmanagementsystem.student.entity;
 
 import jakarta.persistence.*;
 
